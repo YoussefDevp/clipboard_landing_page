@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", "sans-serif";
+}
+
+.container {
+  text-align: center;
+  background: url("images/bg-header-desktop.png") center center/cover;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0;
+}
+
+header h1 {
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 2;
+}
+p {
+  margin: 0 auto;
+  width: 42%;
+  font-weight: 400;
+  margin: 1.5rem auto;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 25px;
+  margin-left: 1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-green {
+  box-shadow: #26bba4 0.2rem 0.1rem 0.2rem;
+  background: #26bba4;
+}
+.btn-blue {
+  box-shadow: #6173fb 0.2rem 0.1rem 0.2rem;
+  background: #6173fb;
+}
+
+.snippets h2,
+.clipboard h2,
+.workflow h2 {
+  text-align: center;
+}
+
+.countainers {
+  display: flex;
+  margin: 2rem;
+}
+
+.Mac {
+  flex: 1;
+}
+
+.caption {
+  flex: 1;
+  text-align: left;
+  padding: 3rem;
+}
+
+.caption p {
+  text-align: left;
+  width: 100%;
+}
+
+.ipad {
+  width: 100%;
+  text-align: center;
+}
+.countaineer {
+  margin-top: 5rem;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  width: 100%;
+}
+.card img {
+  margin-bottom: 2rem;
+}
+.card p {
+  width: 90%;
+}
+
+.patnerLogo {
+  margin: 2rem;
+  text-align: center;
+}
+
+.partners {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.download {
+  background: none;
+}
+
+footer {
+  display: flex;
+}
+
+.links {
+  width: 100%;
+}
+.links p {
+  display: inline;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+}
